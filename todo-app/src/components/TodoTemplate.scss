@@ -11,14 +11,15 @@
     color: white;
     height: 4rem;
     font-size: 1.5rem;
+    // http://flexboxfroggy.com/#ko (flex 참고)
     //default flex-direction row(없을 경우)
     display: flex;
-    //flex item 중앙정렬
+    //flex item 세로 중앙정렬
     align-items: center;
-    //flex 양쪽 중앙정렬
+    //flex 가로 중앙정렬
     justify-content: center;
   }
   .content {
-     background: white;
+    background: white;
   }
 }
