@@ -3,7 +3,6 @@ import TodoTemplate from "./components/TodoTemplate";
 import TodoInsert from "./components/TodoInsert";
 import TodoList from "./components/TodoList";
 import Modal from "./components/Modal";
-import '../src/components/Modal.scss';
 import img from "./img/modal/1667.jpg"
 
 // 테스트용 todo 생성 
@@ -78,8 +77,8 @@ const App = () => {
 
 
   return (
-    <><div class="dimmed">
-      <Modal img={img} />
+    <><div >
+      <Modal img={img}/>
     </div>
       <TodoTemplate>
         <TodoInsert onInsert={onInsert} />
